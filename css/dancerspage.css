@@ -1,0 +1,214 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+div.clear{
+	clear:both;
+}
+
+@font-face {
+    font-family: "Neutra-Text";
+    src: url(../fonts/NeutraText-LightAlt.ttf) format("truetype");
+}
+
+p.credit{
+	position: absolute;
+	bottom:150px;
+	right:6px;
+	color:white;
+	z-index: 2;
+}
+
+h2{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 40px;
+	display: block;
+	margin-left:20px;
+	letter-spacing: 2px;
+	color:black;
+}
+
+/************** Dancers Page****************/
+
+div.header{
+	width:100%;
+}
+
+div.header img{
+	width:100%;
+	overflow: hidden;
+}
+
+
+.over{
+	width:100%;
+	height:75vh;
+	position: absolute;
+	top: 0;
+	left:0;
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0,0.7);
+	z-index: 2;
+}
+
+h1.title{
+	/*text*/
+	width:100%;
+	text-align: center;
+	font-family: 'Neutra-Text', sans-serif;
+	color:white;
+	font-size: 80px;
+	letter-spacing: 20px;
+
+/*	positioning
+*/	position:absolute;
+	left:50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+/*.image img{
+	width:100%;
+	vertical-align:top;
+	object-fit: fill;
+}
+
+.image:after, .image:before {
+    position:absolute;
+    opacity:1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    
+
+}
+.image:after {
+    content:'\A';
+    width:100%; 
+    height:100%;
+    object-fit: fill;
+	top:0; left:0;
+    background:rgba(0,0,0,0.7);
+}
+.image:before {
+    content: attr(data-content);
+    width:100%;
+    color:#fff;
+    z-index:1;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 20px;
+    -moz-box-sizing:border-box;
+}
+*/
+
+.dancers img{
+	width:20%;
+	display: inline-block;
+	float: left;
+	margin:10px;
+}
+
+img.hidden{
+	display: none;
+}
+
+.bio{
+	display: inline-block;
+	width:70%;
+	margin-left: 40px;
+
+/*	float:left;
+
+*/}
+
+.bio p{
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	line-height: 
+}
+
+h3{
+	display:inline-block;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 24px;
+	letter-spacing: 5px;
+	text-align: center;
+	font-variant: small-caps;
+}
+
+#board{
+	width:100%;
+	margin:auto;
+}
+
+
+#board div.top-row div, #board div.bottom-row div{
+	float:left;
+	display: inline-block;
+	width:24%;
+	
+}
+
+#board div.top-row, #board div.bottom-row{
+	text-align: center;
+}
+#board div.top-row div{
+	margin: 10px 5px;
+}
+
+#board div.bottom-row div{
+	margin:10px 60px;
+}
+#board .special{
+	padding-top:10px;
+}
+
+#board img{
+	z-index: -1;
+	width: 100%
+}
+#board h3{
+	display: inline-block;
+	width:100%;
+	margin:auto;
+	text-align: center;
+	position: relative;
+	top:-20;
+}
+
+.name{
+	font-family: 'Neutra-Text', sans-serif;
+	font-weight: bold;
+}
+
+
+
+
+/***** FOOTER ******/
+footer{
+	background-color:rgb(117, 121, 155);
+	text-align: center;
+	color: white;
+}
+
+.icons{
+	margin-left: 10px;
+	font-size: 40px;
+	letter-spacing: 20px;
+	padding:10px 0px;
+	z-index: 1;
+}
+.icons i{
+	color:white;
+	opacity: 0.7;
+}
+.icons i:hover{
+	opacity: 1;
+}
